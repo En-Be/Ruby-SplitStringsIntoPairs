@@ -9,3 +9,28 @@ Input | Output
 "lala" | ["la", "la"]
 "lal" | ["la", "l_"]
 "" | [""]
+
+---
+
+### How to run:
+
+- Clone the repo
+- Inside the root directory of the project, require the method file in a repl:
+
+    ```
+    irb -r './lib/SplitStringsIntoPairs.rb'
+    ```
+- Call the method with a string:
+    ```
+    SplitStringsIntoPairs("Lalala")
+    ```
+    Which outputs:
+    ```
+    => ["La", "la", "la"]
+    ```
+
+- To see the test coverage, run:
+
+    ```
+    rspec
+    ```
